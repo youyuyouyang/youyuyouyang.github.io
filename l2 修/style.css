@@ -1,0 +1,86 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #d5f3da
+}
+
+a {
+    text-decoration: none;
+    color: #2a99da;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Microsoft YaHei;
+}
+
+p {
+    text-indent: 20px;
+}
+
+h3 {
+    background-color: #05b0ff;
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.dt {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 0;
+    
+   
+}
+
+@media (max-width:960px) {
+    .container {
+        width: 100%;
+        position: absolute;
+    }
+    .dt{display:none}
+}
+.dg:hover{transform:rotate(180deg);
+    transition: width 2s, height 2s, transform 2s;}
+.dt:hover {
+    position:relative;
+    animation:myfirst 5s linear 2s infinite alternate;}
+    
+   
+
+@keyframes myfirst {
+
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+    
+}
